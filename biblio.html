@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="imagenes\favicon.ico" >
+	<title>TECLADOS</title>
+	
+	<link rel="stylesheet" type="text/css" href="estilosGenerales.css">
+	</head>
+<body id="bodybiblio">
+	
+	<div id="titulo2">
+		BIBLIOGRAFÍA Y OPINIÓN SOBRE PÁGINA
+	</div>
+	<div id="texto">
+		
+		<form action="formulario.php" method="get" accept-charset="utf-8">
+		<fieldset>
+			<legend>Formulario de contacto</legend>
+			<fieldset>
+				<legend>Datos personales</legend>
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" value="" placeholder="" id="nombre">
+				<label for="apellido">Apellidos: </label>
+				<input type="text" name="apellido" value="" placeholder="" id="apellido"> <br>
+				<label for="contra">Contraseña: </label>
+				<input type="password" name="contra" value="" placeholder="" id="contra">
+			</fieldset>
+			<fieldset>
+				<legend>Encuesta</legend> <br>
+				<div>¿Cuál es el apartado que más te ha gustado?</div>
+				 <select name="gusto1" multiple="multiple">
+				<option value="index">Introducción</option>
+				<option value="tipos">Tipos</option>
+				<option value="funcionamiento">Funcionamiento</option>
+				<option value="instalacion">Instalación</option>
+				<option value="marcas">Marcas</option>
+				<option value="donde">Dónde encontrarlos</option>
+				
+			</select> <br> <br>
+
+			<div>¿Te ha gustado la página?</div> <br>
+			<input type="radio" name="gusto" id="gusto"> Nada <br> <br>
+			<input type="radio" name="gusto" id="gusto"> Poco <br> <br>
+			<input type="radio" name="gusto" id="gusto"> Mucho <br> <br>
+			
+			<div>Comentarios y sugerencias</div> <br>
+			<textarea name="comentarios"  rows="5" cols="60" ></textarea> <br>
+			
+
+			</fieldset>
+			<input type="submit" name="" value="Enviar" id="enviar">
+		</fieldset>
+		
+	</form>
+
+
+
+	</div>
+
+	<div id="titulo2">
+		Bibliografía:
+	</div>
+
+	<div id="texto">
+		<a href="https://www.pccomponentes.com/teclados" title="">PCCOMPONENTES</a> <br>
+		<a href="https://es.wikipedia.org/wiki/Teclado_(inform%C3%A1tica)" title="">WIKIPEDIA</a> <br>
+		<a href="https://geekytheory.com/teclados-mecanicos-vs-membrana" title="">GEEKY THEORY</a> <br>
+		<a href="http://www.cavsi.com/preguntasrespuestas/como-funciona-el-teclado-de-la-computadora/" title="">CAVSI</a> <br>
+		<a href="https://techlandia.com/conectar-teclado-computadora-como_394100/" title="">TECHLANDIA</a> <br>
+
+	</div>
+
+	<div id="volver"><a href="index.html">Volver a la página principal</a></div>
+</body>
+</html>

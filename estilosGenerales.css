@@ -1,0 +1,156 @@
+#bodytipos {
+	background-image: url(imagenes/fondo2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#bodyfuncion {
+	background-image: url(imagenes/fondo3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#bodyinstalacion {
+	background-image: url(imagenes/fondo4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#bodymarcas {
+	background-image: url(imagenes/fondo5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#bodydonde {
+	background-image: url(imagenes/fondo6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#bodybiblio {
+	background-image: url(imagenes/fondo7.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+a:visited {
+	color: black; 
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: #888;
+}
+
+tr:hover {
+	background-color: green;
+	font-size: 1.5em;
+}
+
+@font-face {
+	font-family: Fuente1;
+	src: url(fuentes/LemonMilk.otf);
+}
+
+@font-face {
+	font-family: Fuente2;
+	src: url(fuentes/fuente2.0.ttf);
+}
+
+#titulo2 {
+	font-size: 3em;
+	font-family: Fuente1;
+	margin-top: 4%;
+	position: relative;
+	text-align: center;
+	line-height: 1.5em;
+	margin-bottom: 3%;
+}
+
+#texto {
+	margin-top: 2%;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	font-family: Fuente2;
+	text-align: center;
+	margin-bottom: 2%;
+	width: 80%;
+	margin: auto;
+}
+table {
+	margin: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 5px;
+	font-size: 1.4em;
+	font-family: Fuente1;
+	text-align: center;
+	line-height: 1.5em;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+	font-size: 1.2em;
+	font-family: Fuente2;
+	line-height: 1.5em;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#volver {
+	position: relative;
+	margin-left: 5%;
+	margin-top: 7%;
+	font-size: 2em;
+	font-family: Fuente2;
+}
+a {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#tablatipos {
+	width: 80%;
+	margin: auto;
+}
+
+#impar {
+	background-color: grey;
+
+}
+
+img {
+	width: 25%;
+	height:	25%;
+	padding-right: 6%;
+}
+
+#imagenes {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 90%;
+
+}
+
+#posicionar {
+	margin-left: 31%;
+}
+
+#video {
+	margin-left: 28%;
+	margin-top: 5%;
+}
+
+#marcasimg {
+	width: 150px;
+	height: 120px;
+}
